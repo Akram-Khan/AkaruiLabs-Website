@@ -10,7 +10,8 @@
 
 <div class="contact">
 
-	<%= image_tag "Email.png"%> : <%=mail_to "contact@akaruilabs.com", name="contact@akaruilabs.com"%> <br/>
-	<%= image_tag "SkypeSymbol.png"%> : akaruilabs
+
+<%= image_tag "Email.png"%> :              <%=mail_to "contact@akaruilabs.com", name="contact@akaruilabs.com"%> <br/>
+<%= image_tag "SkypeSymbol.png"%> : akaruilabs
 
 </div>

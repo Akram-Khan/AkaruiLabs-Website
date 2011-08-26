@@ -14,29 +14,41 @@
 	lorem ipsum lorem ipsum lorem ipsum lorem ipsum  </p>
 
 	<div class ="group1">
-	<p class="agile">
+
+		<div class = "agile">
+			<h4> Agile </h4>
+			<p>
 	agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile 
 	agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile
 	agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile 
 	agile agile agile agile agile agile agile agilagile agile agile agile agile agile agile agile 
-	</p>
+			</p>
+		</div>	
 	
-
-	
-	<p class="about-us">
+		<div class="about-us">
+			<h4>About Us</h4>
+			<p>
 	about-us about-us about-us about-us about-us about-us about-us about-us about-us about-us about-us about-u about-us about-us about-us about-us about-us about-u
 	about about-us about-us about-us about-us about-us about-us about-us about-us about-us about-us about-us about-u about-us about-us about-us about-us about-us 
-	</p>
+			</p>
+		</div>
 	</div>
 
 	<div class="group2">
-	<p class="blog">
-	blog blog blog blog blog blog blogblog blog blog   about-us about-us about-us about-us about-us about-us about-us about-us about-us about-us about-us about-u 
-	</p>
 
-	<p class="featured">
+		<div class="blog">
+			<h4>Blog</h4>
+			<p>
+	blog blog blog blog blog blog blogblog blog blog   about-us about-us about-us about-us about-us about-us about-us about-us about-us about-us about-us about-u 
+			</p>
+		</div>	
+
+		<div class="featured">
+			<h4>Featured Products</h4>
+			<p>
 	featured featured featured featured featured featured 
-	</p>
+			</p>
+		</div>
 	</div>
 
 </body>

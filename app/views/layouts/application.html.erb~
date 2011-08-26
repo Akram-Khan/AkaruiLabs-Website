@@ -8,12 +8,13 @@
 </head>
 <body>
 
-	
+	<div id="container">
 
 	<div id ="navigation">
 		<ul>
 			<li> <%=link_to "Home", :controller => "home", :action => "index"%> </li>
 			<li> <%=link_to "About Us", :controller => "aboutus", :action => "index"%> </li>
+			<li> <%=link_to "Portfolio", :controller => "portfolio", :action => "index"%> </li>
 			<li> <%=link_to "Methadology", :controller => "methodology", :action => "index"%> </li>
 			<li> <%=link_to "Contact", :controller => "contact", :action => "index"%> </li>
 		</ul>
@@ -30,7 +31,7 @@
 <div id ="main">
 <%= yield %>
 </div>
-
+</div>
 
 <div id="footer">
 		&copy;AkuraiLabs India 2011

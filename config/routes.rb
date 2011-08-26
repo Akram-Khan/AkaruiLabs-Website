@@ -1,4 +1,6 @@
 AkaruiLabs::Application.routes.draw do
+  get "portfolio/index"
+
   get "contact/index"
 
   get "methodology/index"

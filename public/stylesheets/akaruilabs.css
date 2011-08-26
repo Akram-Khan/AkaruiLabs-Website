@@ -60,7 +60,7 @@ html, body, #container{
 
 #footer{
 	border-top: 2px dashed;
-	width: 76%;
+	width: 100%;
 	position: relative;
 	height: 3em;
 	margin-top: -3em;
@@ -108,15 +108,24 @@ html, body, #container{
 	float: left;
 	}
 
-
 #main .blog{
 	border: 2px dashed;
 	width: 45%;
 	float: right;
 	}
 
+#main .blog,.featured,.about-us,.agile h4{
+	text-align: center;
+	}
+
 /* Methodology Page Styling */
+
 
 #main .methodology{
 	text-align: center;
 	}
+
+
+/* Contact Us Page Styling */
+
+
