@@ -1,0 +1,9 @@
+<h1>AkuraiLabs Methodology</h1>
+
+
+<div class ="methodology">
+
+<%=image_tag "images/Methodology.png", :controller => "methodology", :action => "index" %>
+
+</div>
+

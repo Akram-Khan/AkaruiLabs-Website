@@ -1,18 +1,25 @@
 
 
-
 body{
 	background-color: #F2F2F2;
 	padding-right: 12%;
 	padding-left: 12%;
-	border: 2px solid blue;
 	}
+
+html, body, #container{
+	height: 100%;	
+	}
+
+
+#container{
+	height: auto;
+	min-height: 100%;
+	}
+
 
 #main{
 	padding-top: 1em;
-	
 	border-top: 2px dashed;
-	border: 2px solid;
 	}
 
 #logo{
@@ -44,7 +51,6 @@ body{
 	color: #FFFFFF;
 	background-color: #2E2E2E;
 	text-decoration: none;
-	border: 1px solid #711515
 	}
 
 #navigation a:hover{
@@ -54,10 +60,63 @@ body{
 
 #footer{
 	border-top: 2px dashed;
-	bottom: 0;
 	width: 76%;
-	position: absolute;
+	position: relative;
+	height: 3em;
+	margin-top: -3em;
 	text-align: center;
-	font-size: 80%	
+	font-size: 80%;
+	clear: both; 	
 	}	
+
+
+/* Home Page Style */
+
+
+#main .topblock{
+	border: 2px solid;
+	color: red;
+	}
+
+#main .group1{
 	
+	}
+
+#main .group2{
+	color: red;	
+	clear: both;
+	}
+
+#main .agile{
+	border: 2px solid blue;
+	width: 45%;
+	overflow: auto;
+	float: left;
+	}
+
+#main .about-us{
+	border: 2px solid;
+	width: 45%;
+	overflow: auto;
+	float: right;
+	}
+
+#main .featured{
+	border: 2px solid green;
+	color: green;
+	width: 45%;
+	float: left;
+	}
+
+
+#main .blog{
+	border: 2px dashed;
+	width: 45%;
+	float: right;
+	}
+
+/* Methodology Page Styling */
+
+#main .methodology{
+	text-align: center;
+	}
