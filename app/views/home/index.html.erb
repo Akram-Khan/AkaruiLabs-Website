@@ -31,8 +31,8 @@
 		<div class="about-us">
 			<h4>About Us</h4>
 			<p>
-			 
-			<%=link_to "more", :mouseover => "rails.png", :controller => "aboutus", :action => "index" %>			
+			<%=render "aboutus/aboutus"%>
+			<%=link_to "more", :controller => "aboutus", :action => "index" %>			
 			</p>
 		</div>
 	</div>

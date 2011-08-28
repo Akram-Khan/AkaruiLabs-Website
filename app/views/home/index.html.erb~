@@ -31,8 +31,8 @@
 		<div class="about-us">
 			<h4>About Us</h4>
 			<p>
-			<%= render(:parital => "shared/content_aboutus")%> 
-			<%=link_to "more", :mouseover => "rails.png", :controller => "aboutus", :action => "index" %>			
+			<%=render "aboutus/contentaboutus"%>
+			<%=link_to "more", :controller => "aboutus", :action => "index" %>			
 			</p>
 		</div>
 	</div>

@@ -3,11 +3,6 @@ class HomeController < ApplicationController
   end
 
   def new
-	@about_us = 1
-
-	if(@about_us==1)  
-
-	render "aboutus/index"
-	end 
+	@about_us = render "shared/content_aboutus"
   end
 end
