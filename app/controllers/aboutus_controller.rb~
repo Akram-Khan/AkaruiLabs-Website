@@ -1,6 +1,7 @@
 class AboutusController < ApplicationController
   def index
 
+	@redering
   end
 
 end

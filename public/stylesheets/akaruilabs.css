@@ -4,6 +4,7 @@ body{
 	background-color: #F2F2F2;
 	padding-right: 12%;
 	padding-left: 12%;
+	
 	}
 
 html, body, #container{
@@ -14,6 +15,7 @@ html, body, #container{
 #container{
 	height: auto;
 	min-height: 100%;
+	border: 2px dashed;
 	}
 
 
@@ -82,41 +84,43 @@ html, body, #container{
 	
 	}
 
-#main .group2{
-	color: red;	
+#main .group2{	
 	clear: both;
 	}
 
 #main .agile{
-	border: 2px solid blue;
-	width: 45%;
+
 	overflow: auto;
 	float: left;
 	}
 
 #main .about-us{
-	border: 2px solid;
-	width: 45%;
+
 	overflow: auto;
 	float: right;
 	}
 
 #main .featured{
-	border: 2px solid green;
+	
 	color: green;
-	width: 45%;
 	float: left;
 	}
 
 #main .blog{
-	border: 2px dashed;
-	width: 45%;
 	float: right;
 	}
 
-#main .blog,.featured,.about-us,.agile h4{
-	text-align: center;
+#main .blog,.featured,.about-us,.agile{
+
+	width: 45%;
+	text-align: justify;
+	border-bottom: 2px dashed;
 	}
+
+#main h4{
+	text-align: center;
+	text-decoration: underline;
+}
 
 /* Methodology Page Styling */
 

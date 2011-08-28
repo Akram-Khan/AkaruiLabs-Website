@@ -3,7 +3,7 @@
 
 <div class ="methodology">
 
-<%=image_tag "images/Methodology.png", :controller => "methodology", :action => "index" %>
+<%=image_tag "Methodology.png", :controller => "methodology", :action => "index" %>
 
 </div>
 

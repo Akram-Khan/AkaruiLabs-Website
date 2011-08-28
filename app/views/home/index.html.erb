@@ -11,33 +11,41 @@
 	<p class ="topblock">
 	lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
 	lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
-	lorem ipsum lorem ipsum lorem ipsum lorem ipsum  </p>
+	lorem ipsum lorem ipsum lorem ipsum lorem ipsum </p>
+
+
 
 	<div class ="group1">
 
 		<div class = "agile">
 			<h4> Agile </h4>
 			<p>
-	agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile 
-	agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile agile
+				WE follow agile methodology for development process. This helps us in introducing testing and QA element alongwith the development process reducing
+				the overall time required to do the development. We use pivotal so that our clients can see the progress and expected date of completion of the 
+				project automatically.
+				<%=link_to "more",  :controller => "methodology", :action => "index"%>	
 			</p>
 		</div>	
+
 	
 		<div class="about-us">
 			<h4>About Us</h4>
 			<p>
-	about-us about-us about-us about-us about-us about-us about-us about-us about-us about-us about-us about-u about-us about-us about-us about-us about-us about-u
-	about about-us about-us about-us about-us about-us about-us about-us about-us about-us about-us about-us about-u about-us about-us about-us about-us about-us 
+			 
+			<%=link_to "more", :mouseover => "rails.png", :controller => "aboutus", :action => "index" %>			
 			</p>
 		</div>
 	</div>
 
+
+
+<div>
 	<div class="group2">
 
 		<div class="blog">
-			<h4>Blog</h4>
+			<h4><%=link_to "Blog"%></h4>
 			<p>
-	blog blog blog blog blog blog blogblog blog blog   about-us about-us about-us about-us about-us about-us about-us about-us about-us about-us about-us about-u 
+	blog blog blog blog blog blog blogblog blog blog   about-us about-us about-us about-us about-us about-us about-us about-us about-us about-us about-us about-u 			
 			</p>
 		</div>	
 
@@ -45,8 +53,10 @@
 			<h4>Featured Products</h4>
 			<p>
 	featured featured featured featured featured featured 
+	<%=link_to "more",  :controller => "portfolio", :action => "index"%>					
 			</p>
 		</div>
 	</div>
+</div>
 
 </body>
